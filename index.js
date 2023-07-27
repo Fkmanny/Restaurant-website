@@ -109,7 +109,6 @@ window.addEventListener("load", ()=>{
     // }
 });
 
-
 twoEl.addEventListener("click", ()=>{
     imageContainerEl.innerHTML = "";
     const newEl = document.createElement("img");

@@ -2,7 +2,7 @@ const searchbtnEl = document.getElementById('buttonPage');
 const msgEl = document.getElementById('msg');
 const inputNameEl = document.getElementById('inputName');
 
-
+ //Search Button
 
 searchbtnEl.addEventListener("click", () =>{
     let inputValue = document.getElementById('inputName').value
@@ -27,6 +27,7 @@ searchbtnEl.addEventListener("click", () =>{
                 itemDiv = document.createElement("div");
                 itemDiv.className = "singleItem";
                 itemDiv.setAttribute('onclick', `details(${meal.idMeal})`)
+                
                 let itemInfo = `<div class="card" style="width: 18rem;">
                 <img class="card-img-top" text-center src="${meal.strMealThumb}" alt="Card image cap">
                 <div class="card-body">
