@@ -40,6 +40,7 @@ body.freeze{
     width: 86vw;
     height: 105vh;
     margin-bottom: 100px;
+    
 }
 
 .main-body{
@@ -51,6 +52,8 @@ body.freeze{
     flex-direction: column;
     align-items: center;
     overflow: hidden;
+    /* background-color: #0c0b08eb !important; */
+
 }
 
 .logo{
